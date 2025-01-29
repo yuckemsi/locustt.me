@@ -1,0 +1,1 @@
+Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)

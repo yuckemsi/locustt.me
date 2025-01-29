@@ -1,0 +1,106 @@
+/* @font-face {
+	font-family: 'ebenya';
+	src: url('/fonts/EBENYA/EBENYA.ttf');
+	font-weight: 400;
+} */
+
+/* @font-face {
+	font-family: 'lora';
+	src: url('/fonts/Lora/Lora.ttf');
+	font-weight: 400;
+} */
+@font-face {
+	font-family: 'Galderglynn Titling';
+	src: url('/fonts/Galderglynn Titling/galderglynntitlingbk_regular.ttf');
+}
+
+@font-face {
+	font-family: 'Old Standard TT';
+	src: url('/fonts/Old Standard TT/OldStandard-Regular.ttf');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+}
+
+body {
+	background-color: black;
+	margin: 30px 50px;
+	height: 100%;
+}
+
+body, .wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	font-family: 'ebenya';
+	color: black;
+}
+
+/* .logo h1 {
+    font-size: 34px;
+    font-family: 'RAYDIS', sans-serif;
+} */
+
+
+menu ul {
+	display: flex;
+	align-items: center;
+}
+
+menu ul:last-child li:last-child{
+	padding-right: 0;
+	color: red;
+}
+
+menu li {
+	padding: 17px 84px;
+}
+
+menu li a{
+	font-family: 'Galderglynn Titling';
+	font-size: 24px;
+}
+
+
+menu {
+    display: flex;
+    width: 90%;
+    max-height: 80px;
+	align-items: center;
+    justify-content: space-between;
+}
+
+.tagline {
+	font-family: 'Old Standard TT';
+	text-align: center;
+	margin: 155px 0px;
+	font-size: 135px;
+}
+
+footer {
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    max-height: 60px;
+    margin: 20px 20px 10px 20px;
+    padding: 10px 10px 0 10px;
+    border-top: 1px solid black;
+    
+}
