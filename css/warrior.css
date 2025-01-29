@@ -102,6 +102,7 @@ menu {
 }
 
 .name img {
+	margin-left: 30px;
 	object-fit: cover;
 	width: 570px;
 	height: 470px;
