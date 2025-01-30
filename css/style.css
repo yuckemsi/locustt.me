@@ -16,6 +16,11 @@
 	color: white;
 }
 
+*::selection {
+	color: black;
+	background: white;
+}
+
 body {
 	background-color: black;
 	height: 100%;
